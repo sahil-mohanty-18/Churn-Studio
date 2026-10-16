@@ -1,0 +1,10 @@
+{
+  "threshold": 0.085,
+  "business": {
+    "contact_cost": 10,
+    "retained_value": 300,
+    "success_rate": 0.3,
+    "validation_net_value": 18730.0,
+    "validation_contact_all_value": 15640
+  }
+}

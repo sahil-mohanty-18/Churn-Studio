@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+data/*.db*
+data/telco.csv
+models/*.joblib
+reports/*.log
+.DS_Store

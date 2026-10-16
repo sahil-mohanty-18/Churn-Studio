@@ -1,0 +1,23 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+Flask==3.1.2
+Flask-Cors==6.0.1
+Flask-Limiter==3.12
+waitress==3.0.2
+python-dotenv==1.1.1
+numpy==2.3.5; python_version >= "3.11"
+numpy==2.2.6; python_version < "3.11"
+pandas==2.2.3
+scipy==1.17.0; python_version >= "3.11"
+scipy==1.15.3; python_version < "3.11"
+scikit-learn==1.8.0; python_version >= "3.11"
+scikit-learn==1.7.2; python_version < "3.11"
+joblib==1.5.3
+matplotlib==3.10.8
+xgboost-cpu==3.0.5; platform_system == "Linux" and platform_machine == "x86_64"
+xgboost==3.0.5; platform_system != "Linux" or platform_machine != "x86_64"
+lightgbm==4.6.0
+optuna==4.5.0
+shap==0.48.0
+torch==2.8.0+cpu; platform_system != "Darwin"
+torch==2.8.0; platform_system == "Darwin"
+pytest==8.4.2

@@ -1,0 +1,7 @@
+{
+  "kind": "IBM Telco sample",
+  "url": "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv",
+  "support_tickets": "Not collected by IBM; omitted from real-data modeling",
+  "rows": 7043,
+  "churn_rate": 0.2653698707936959
+}
